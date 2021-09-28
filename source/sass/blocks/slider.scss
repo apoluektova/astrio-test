@@ -1,0 +1,41 @@
+.slider {
+  width: 475px;
+  margin: 0 auto;
+}
+
+.slider__wrapper {
+  width: 475px;
+}
+
+.slider__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.slider__item {
+  display: none;
+
+  &--active {
+    display: block;
+  }
+}
+
+.slider__controls {
+  width: 455px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: -58px;
+}
+
+.slider__button {
+  @include reset-button;
+  width: 38px;
+  height: 38px;
+  background-image: url("../img/button.png");
+
+  &--next {
+    transform: rotate(-180deg);
+  }
+}
