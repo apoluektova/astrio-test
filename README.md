@@ -1,8 +1,8 @@
 # Тестовое задание для компании Astrio AGENCY на должность фронтенд-разработчика
 
 ## Опубликованная версия:
-* [Баннер](https://inteco.vercel.app)
-* [Список товаров](https://inteco.vercel.app)
+* [Баннер](https://astrio-test.vercel.app/banner.html)
+* [Список товаров](https://astrio-test.vercel.app/listing.html)
 
 ## Требования: 
 
