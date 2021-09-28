@@ -1,4 +1,4 @@
-const {Slider} = require('./slider.js'); 
+import Slider from "./slider.min.js";
 
 const slider = document.querySelector('.slider');
 const sliderWrapper = slider.querySelector('.slider__wrapper');

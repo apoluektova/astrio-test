@@ -1,4 +1,17 @@
 .listing {
   width: 100%;
   padding: 10px;
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet) {
+  .listing {
+    width: 60%;
+  }
+}
+
+@media (min-width: $desktop) {
+  .listing {
+    width: 37.4%;
+  }
 }

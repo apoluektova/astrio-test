@@ -1,5 +1,5 @@
 {
-  "name": "Astrio Test Task",
+  "name": "astrio-test",
   "private": true,
   "description": "Astrio Test Task",
   "devDependencies": {
