@@ -23,3 +23,13 @@ npm run start
 ```
 npm run build
 ```
+
+### Баннер
+```
+http://localhost:3000/
+```
+
+### Список товаров
+```
+http://localhost:3000/listing.html
+```
