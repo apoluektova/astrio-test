@@ -10,12 +10,10 @@ const nextButton = sliderControls.querySelector('.slider__button--next');
 
 const newSlider = new Slider(slider, sliderItems);
 
-prevButton.addEventListener('click', (evt) => {
-  evt.preventDefault();
+prevButton.addEventListener('click', () => {
   newSlider.showPrevSlide();
 });
 
-nextButton.addEventListener('click', (evt) => {
-  evt.preventDefault();
+nextButton.addEventListener('click', () => {
   newSlider.showNextSlide();
 });
