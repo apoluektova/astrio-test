@@ -25,6 +25,7 @@
 
 .products__item-wrapper {
   width: 100%;
+  border: 2px solid transparent;
 }
 
 .products__picture {
@@ -73,10 +74,13 @@
   background-color: $dark-grey;
   color: $white;
   border: none;
-  padding: 5px 5px 9px 10px;
+  padding: 8px 5px;
   font-size: 12px;
   line-height: 16px;
+  font-weight: 400;
   cursor: pointer;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .products__rating {

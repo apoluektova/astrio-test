@@ -2,6 +2,7 @@
   width: 100%;
   padding: 10px;
   margin: 0 auto;
+  min-height: calc(100vh + 400px);
 }
 
 @media (min-width: $tablet) {
