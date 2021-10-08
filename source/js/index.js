@@ -8,7 +8,7 @@ const sliderControls = sliderWrapper.querySelector('.slider__controls');
 const prevButton = sliderControls.querySelector('.slider__button--prev');
 const nextButton = sliderControls.querySelector('.slider__button--next');
 
-const newSlider = new Slider(slider, sliderItems);
+const newSlider = new Slider(slider, sliderList, sliderItems);
 
 prevButton.addEventListener('click', () => {
   newSlider.showPrevSlide();
